@@ -14,7 +14,7 @@ public class SorterTest {
     @Before
     public void setUp(){
         sort = new Sorter();
-        nums = new ArrayList<>(Arrays.asList(8, 10, 37, 777, 1, 2, 6, 99, 233344, 233, 5, 4, 3, 30, 9, 7));
+        nums = new ArrayList<>(Arrays.asList(8, 10, 37, 777, 1, 2, 6, 99, 7, 233, 5, 4, 3, 30, 9, 233344));
         this.nums = sort.sort(nums);
     }
 
