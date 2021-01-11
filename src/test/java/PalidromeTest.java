@@ -16,7 +16,7 @@ public class PalidromeTest {
     @Before
     public void setUp(){
         finder = new Palidrome();
-        input1 = "catdoghatapple";
+        input1 = "catdoghatoapple";
         input2 = "happyppahaha";
         input3 = "yellowblueeulbred";
     }
