@@ -16,13 +16,14 @@ public class PalidromeTest {
     @Before
     public void setUp(){
         finder = new Palidrome();
-        input1 = "catdoghatapple";
+        input1 = "catdoghatoapple";
         input2 = "happyppahaha";
         input3 = "yellowblueeulbred";
     }
 
     @Test
     public void hasPalidrome(){
+        // if contains a palindrome of length 3 or more
         assertFalse(finder.containsPalindrome(input1));
         assertTrue(finder.containsPalindrome(input2));
         assertTrue(finder.containsPalindrome(input3));
